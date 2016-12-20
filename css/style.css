@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+.logo {
+  margin-left: 15%;
+  width: 70%;
+  height: 100px;
+  background-color: #f7f7f7;
+  /*font-size: 80px;
+  text-transform: uppercase;
+  color: #505051;*/
+}
+.logo__dr {
+  font-size: 80px;
+  text-transform: uppercase;
+  color: #f4b60d;
+  text-shadow: 5px 3px 3px rgba(150, 150, 150, 1);
+}
+.logo__ay {
+  font-size: 60px;
+  text-transform: uppercase;
+  color: #505051;
+  text-shadow: 5px 3px 3px rgba(150, 150, 150, 1);
+}
+header {
+  width: 100%;
+  height: 500px;
+  background-color: #79797b;
+}
+.info {
+
+  margin-left: 15%;
+  width: 70%;
+  height: 500px;
+}
+.contacts {
+  width: 25%;
+  height: 500px;
+
+}
+.contacts li {
+  list-style: none;
+  padding-top: 20px;
+  color: #2a2d32;
+}
+.contacts li a {
+  text-decoration: none;
+  color:  #2a2d32;
+}
+.map {
+  float: right;
+  margin-top: -475px;
+}
+
+
+section {
+  margin-left: 15%;
+  width: 70%;
+  height: 2000px;
+  background-color: #f7f7f7;
+}
