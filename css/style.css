@@ -14,7 +14,7 @@
 .logo__dr {
   font-size: 80px;
   text-transform: uppercase;
-  color: #f4b60d;
+  color: #505051;
   text-shadow: 5px 3px 3px rgba(150, 150, 150, 1);
 }
 .logo__ay {
@@ -23,25 +23,10 @@
   color: #505051;
   text-shadow: 5px 3px 3px rgba(150, 150, 150, 1);
 }
-
-
-/*HEADER*/
-header {
-  position: relative;
-  width: 100%;
-  height: 500px;
-  background-color: #B3BCB5  ;
-}
 .info {
-
-  margin-left: 15%;
-  width: 70%;
-  height: 500px;
+  float: right;
 }
 .contacts {
-  width: 30%;
-  height: 500px;
-
 
 }
 .contacts li {
@@ -53,12 +38,27 @@ header {
   text-decoration: none;
   color:  #2a2d32;
 }
+/*HEADER*/
+header {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background-color: #B3BCB5  ;
+}
+.map {
+  padding-top: 20px;
+  margin-left: 15%;
+  width: 30%;
+}
+.map__item {
+  padding-top: 20px;
+}
 .aboute {
   width: 30%;
   height: 500px;
 
-  margin-top: -450px;
-  margin-left: 600px;
+
+  margin-left: 50%;
 
 
 }
