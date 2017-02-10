@@ -3,13 +3,19 @@
   padding: 0;
   font-family: Geneva, Arial, Helvetica, sans-serif;
 }
+/*HEADER*/
+header {
+  margin: 0 auto;
+  width: 1300px;
+  height: 105px;
+  background-color: #f7f7f7;
+}
 /*LOGO*/
 .logo {
-  margin-left: 15%;
-  width: 70%;
+  float: left;
   height: 100px;
-  background-color: #f7f7f7;
-
+  width: 34%;
+  padding: 0;
 }
 .logo__dr {
   font-size: 80px;
@@ -23,50 +29,118 @@
   color: #505051;
   text-shadow: 5px 3px 3px rgba(150, 150, 150, 1);
 }
+.header__car {
+float: left;
+width: 30%;
+height: 100px;
+background-image: url(../img/sprite__header.png);
+background-repeat: no-repeat;
+background-position: center;
+}
 .info {
   float: right;
+  height: 100px;
+  padding-top: 15px;
+  padding-right: 20px;
+  background-image: url(../img/header__contact.png);
+  background-repeat: no-repeat;
+  background-position: left;
 }
-.contacts {
-
-}
-.contacts li {
+.info ul {
+  margin-top: 3px;
   list-style: none;
-  padding-top: 20px;
-  color: #2a2d32;
+  padding-left: 16px;
 }
-.contacts li a {
+.info ul li {
+  padding: 5px;
+}
+.info ul li a{
   text-decoration: none;
-  color:  #2a2d32;
 }
-/*HEADER*/
-header {
-  position: relative;
-  width: 100%;
-  height: 500px;
-  background-color: #B3BCB5  ;
+/*MENU*/
+section {
+  margin: 0 auto;
+  width: 1300px;
+  height: 350px;
+  background-color: #4FE5BB;
+}
+.allInfo {
+  padding-top: 20px;
+  text-align: center;
+}
+.rent {
+  background-image: url(../img/house.png);
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.soldCar {
+  background-image: url(../img/reunion.png);
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.wash {
+  background-image: url(../img/car-wash.png);
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+ .col-md-4 {
+   height: 280px;
+   font-size: 20px;
+ }
+.text__section {
+  padding-top: 220px;
+  padding-left: 95px;
+  width: 300px;
+}
+/*SECTION WITH MAP*/
+.mapSlider {
+  margin: 0 auto;
+  width: 1300px;
+  height: 350px;
+  background-color: #E95151;
 }
 .map {
   padding-top: 20px;
-  margin-left: 15%;
-  width: 30%;
+  font-size: 20px;
+  padding-left: 20px;
 }
-.map__item {
-  padding-top: 20px;
+.radius {
+  padding-left: 50px;
 }
-.aboute {
-  width: 30%;
-  height: 500px;
-
-
-  margin-left: 50%;
-
-
+.slider {
+  padding-top: -20px;
+  height: 360px;
+  background-color: #FFF;
 }
 
 
-section {
-  margin-left: 15%;
-  width: 70%;
-  height: 2000px;
-  background-color: #f7f7f7;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*vrsx*/
