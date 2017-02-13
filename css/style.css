@@ -42,6 +42,7 @@ background-position: center;
   height: 100px;
   padding-top: 15px;
   padding-right: 20px;
+  padding-left: 10px;
   background-image: url(../img/header__contact.png);
   background-repeat: no-repeat;
   background-position: left;
@@ -151,22 +152,9 @@ section {
 .slider {
   height: 350px;
   background-color: #E95151;
+  padding-top: 50px;
 }
-/*#inform1 {
-  visibility: hidden;
-}
-#inform2 {
-  visibility:hidden;
-}
-#inform3 {
-  visibility:hidden;
-}
-#inform4 {
-  visibility:hidden;
-}
-#inform5 {
-  visibility:hidden;
-}*/
+
 
 /*SECTION FOR CAR*/
 
@@ -178,10 +166,33 @@ section {
 }
 .headerContent {
   width: 100%;
-  height: 50px;
+  height: 100px;
   background-color: #4FE5BB;
 }
-
+.search {
+  padding-top: 40px;
+  width: 
+  text-align: center;
+  background-image: url(../img/search.png);
+  background-repeat: no-repeat;
+  background-position:left;
+}
+#inputSearch {
+  outline:none;
+  border: 2px solid #f7f7f7;
+  height: 30px;
+}
+#inputBtnSearch {
+  outline:none;
+  height: 30px;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  box-shadow:5px 5px 5px rgba(0,0,0,0.5);
+  cursor:pointer;
+}
+#inputBtnSearch:active {
+  box-shadow: none;
+}
 
 
 
