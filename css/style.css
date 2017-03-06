@@ -14,7 +14,7 @@ header {
 .logo {
   float: left;
   height: 100px;
-  width: 34%;
+  width: 30%;
   padding: 0;
 }
 .logo__dr {
@@ -29,13 +29,43 @@ header {
   color: #505051;
   text-shadow: 5px 3px 3px rgba(150, 150, 150, 1);
 }
-.header__car {
-float: left;
-width: 30%;
-height: 100px;
-background-image: url(../img/sprite__header.png);
-background-repeat: no-repeat;
-background-position: center;
+/*MENU*/
+.menu {
+  margin: 0 auto;
+  margin-top: 40px;
+  width: 40%;
+  float: left;
+  position: relative;
+  overflow:hidden;
+  background-color: #f7f7f7;
+}
+.menu ul {
+  position: relative;
+  left:50%;
+  list-style: none;
+  float:left;
+}
+.menu ul li {
+  float: left;
+  position:relative;
+  left:-50%;
+  padding: 5px;
+  height: 30px;
+  font-size: 18px;
+  border-radius: 10px;
+}
+.menu ul li a {
+text-decoration: none;
+color: #505051;
+}
+.saleCar {
+  background-color: #E95151;
+}
+.saleCar a {
+  color: #f7f7f7;
+}
+.menu ul li:hover {
+ background-color: #4FE5BB;
 }
 .info {
   float: right;
@@ -58,7 +88,6 @@ background-position: center;
 .info ul li a{
   text-decoration: none;
 }
-/*MENU*/
 .section {
   margin: 0 auto;
   width: 1300px;
@@ -103,126 +132,84 @@ background-position: center;
   width: 1300px;
   height: 350px;
 }
-.map {
-  padding-top: 20px;
-  font-size: 20px;
-  height: 350px;
-  text-align: center;
-  background-color: #E95151;
-}
-.where {
-  padding-left: 25px;
-  background-image: url(../img/placeholder.png);
-  background-repeat: no-repeat;
-  background-position: center left;
-}
-.radius{
-  padding-top: 20px;
-}
-.button {
-  background-color: #4FE5BB;
-  height: 350px;
-  text-align: center;
-}
-.circle {
-  margin: 0 auto;
-  margin-top: 30px;
-  outline:none;
-  border: none;
-  width: 250px;
-  height: 250px;
-  background-color: #E95151;
-  border-radius: 200px;
-  background-image: url(../img/down-arrow.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  box-shadow:10px 10px 10px rgba(0,0,0,0.7);
-  cursor:pointer;
-}
-.circle:hover {
-  background-image: url(../img/down-arrow.png);
-  background-repeat: no-repeat;
-  background-position: bottom;
-}
-.circle:active {
-  box-shadow: none;
-  margin-top: 35px;
-}
+
 .slider {
   height: 350px;
   background-color: #E95151;
   padding-top: 50px;
 }
-
-
-/*SECTION FOR CAR*/
-
-.content {
+/*SECTION ABOUT COMPANY*/
+.aboutCompany {
   margin: 0 auto;
   width: 1300px;
-  height: 11005px;
   background-color: #f7f7f7;
 }
-.headerContent {
-  width: 100%;
-  height: 100px;
-  background-color: #4FE5BB;
-  text-align: center;
-}
-.search {
+.aboutText {
   padding-top: 40px;
-  /*background-image: url(../img/search.png);
-  background-repeat: no-repeat;
-  background-position:center centers;*/
-}
-#inputSearch {
-  outline:none;
-  border: 2px solid #f7f7f7;
-  height: 30px;
-}
-#inputBtnSearch {
-  outline:none;
-  height: 30px;
+  padding-left: 40px;
+  font-size: 30px;
+  width: 60%;
+  height: 300px;
+  float: left;
   background-color: #f7f7f7;
-  border-radius: 5px;
-  box-shadow:5px 5px 5px rgba(0,0,0,0.5);
-  cursor:pointer;
 }
-#inputBtnSearch:active {
-  box-shadow: none;
-}
-/*CAR*/
-.auto1 {
+.aboutIcon {
+  float: left;
   width: 40%;
   height: 300px;
-  border-radius: 30px;
-  box-shadow:5px 5px 5px rgba(0,0,0,0.5);
+  background-image: url(../img/refresh.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #f7f7f7;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*vrsx*/
+/*SECTION descript*/
+.descript {
+  margin: 0 auto;
+  width: 1300px;
+  background-color: #4FE5BB;
+}
+.descriptIcon {
+  float: left;
+  width: 30%;
+  height: 350px;
+  background-color: #4FE5BB;
+  background-image: url(../img/mechanic.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.descriptText {
+  float: left;
+  text-align: left;
+  padding-top: 40px;
+  padding-left: 40px;
+  font-size: 30px;
+  width: 70%;
+  height: 350px;
+  background-color: #4FE5BB;
+}
+/*SECTION prise*/
+.prise {
+  margin: 0 auto;
+  width: 1300px;
+}
+.priseImg {
+  float: left;
+  width: 60%;
+  height: 450px;
+  background-color: #E95151;
+}
+.priceIcon {
+  float: left;
+  width: 40%;
+  height: 450px;
+  background-color: #E95151;
+  background-image: url(../img/wash.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+footer {
+  margin: 0 auto;
+  width: 1300px;
+  height: 600px;
+  background-color: #f7f7f7;
+}
