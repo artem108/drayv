@@ -7,14 +7,14 @@
 header {
   margin: 0 auto;
   width: 1300px;
-  height: 100px;
+  height: 150px;
   background-color: #f7f7f7;
 }
 /*LOGO*/
 .logo {
   float: left;
   height: 100px;
-  width: 30%;
+  width: 25%;
   padding: 0;
 }
 .logo__dr {
@@ -33,7 +33,7 @@ header {
 .menu {
   margin: 0 auto;
   margin-top: 40px;
-  width: 40%;
+  width: 50%;
   float: left;
   position: relative;
   overflow:hidden;
@@ -50,8 +50,8 @@ header {
   position:relative;
   left:-50%;
   padding: 5px;
-  height: 30px;
-  font-size: 18px;
+  height: 50px;
+  font-size: 30px;
   border-radius: 10px;
 }
 .menu ul li a {
@@ -91,11 +91,11 @@ color: #505051;
 .section {
   margin: 0 auto;
   width: 1300px;
-  height: 350px;
+  height: 600px;
   background-color: #4FE5BB;
 }
 .allInfo {
-  padding-top: 20px;
+  padding-top: 100px;
   text-align: center;
 }
 .rent {
@@ -119,19 +119,14 @@ color: #505051;
 
  .col-md-4 {
    height: 280px;
-   font-size: 20px;
+   font-size: 30px;
  }
 .text__section {
   padding-top: 220px;
-  padding-left: 95px;
-  width: 300px;
+  padding-left: 25px;
+  width: 400px;
 }
-/*SECTION WITH MAP*/
-.mapSlider {
-  margin: 0 auto;
-  width: 1300px;
-  height: 350px;
-}
+/
 
 .slider {
   height: 350px;
@@ -210,6 +205,17 @@ color: #505051;
 footer {
   margin: 0 auto;
   width: 1300px;
-  height: 600px;
+  height: 1600px;
   background-color: #f7f7f7;
+}
+.map {
+ width: 50%;
+ height: 600px;
+ float: left;
+ padding-top: 50px;
+ padding-left: 50px;
+}
+.text {
+  width: 50%;
+  font-size: 25px;
 }
