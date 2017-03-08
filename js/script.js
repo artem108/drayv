@@ -3,6 +3,8 @@
   var uslugiBtn = document.getElementById('uslugi');
   var priceBtn = document.getElementById('price');
  var contactBtn = document.getElementById('contact');
+ function scroll() {
+
     aboutBtn.onclick = function () {
       scrollBy(0, 700);
     };
@@ -18,3 +20,6 @@
     contactBtn.onclick = function () {
       scrollBy(0, 1600);
     };
+
+  }
+scroll();
