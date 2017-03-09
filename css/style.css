@@ -7,15 +7,15 @@
 header {
   margin: 0 auto;
   width: 1300px;
-  height: 150px;
+  height: 100px;
   background-color: #f7f7f7;
 }
 /*LOGO*/
 .logo {
   float: left;
-  height: 100px;
-  width: 23%;
-  padding: 0;
+  height: 80px;
+  width: 33%;
+  padding-left: 20px;
 }
 .logo__dr {
   font-size: 80px;
@@ -29,15 +29,50 @@ header {
   color: #505051;
   text-shadow: 5px 3px 3px rgba(150, 150, 150, 1);
 }
-/*MENU*/
-.menu {
-  margin: 0 auto;
-  margin-top: 40px;
-  width: 57%;
+/*SPRITE ICON*/
+.sprite {
   float: left;
+  width: 33%;
+  height: 100px;
+  background-image: url(../img/sprite_header.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+/*TELEPHONE*/
+.info {
+  float: right;
+  height: 100px;
+  padding-top: 15px;
+  padding-right: 20px;
+  padding-left: 10px;
+  background-image: url(../img/header__contact.png);
+  background-repeat: no-repeat;
+}
+.info ul {
+  margin-top: 3px;
+  list-style: none;
+  padding-left: 16px;
+}
+.info ul li {
+  padding: 5px;
+}
+.info ul li a{
+  text-decoration: none;
+}
+/*MENU*/
+.headerMenu {
+  margin: 0 auto;
+  width: 1300px;
+  height:50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.menu {
+  height: 50px;
   position: relative;
   overflow:hidden;
-  background-color: #f7f7f7;
+  background-color: #2a2d32;
+
 }
 .menu ul {
   position: relative;
@@ -52,87 +87,68 @@ header {
   padding: 5px;
   height: 50px;
   font-size: 30px;
-  border-radius: 10px;
 }
 .menu ul li a {
-text-decoration: none;
-color: #505051;
+  text-decoration: none;
+  color: #fffff9;
 }
-.saleCar {
-  background-color: #E95151;
+.saleCar a {
+  border-bottom:1px solid #e1dd00;
 }
 .saleCar a {
   color: #f7f7f7;
 }
 .menu ul li:hover {
- background-color: #4FE5BB;
+border-left: 1px solid #e1dd00;
+border-right:1px solid #e1dd00;
 }
-.info {
-  float: right;
-  height: 100px;
-  padding-top: 15px;
-  padding-right: 20px;
-  padding-left: 10px;
-  background-image: url(../img/header__contact.png);
-  background-repeat: no-repeat;
-  background-position: left;
-}
-.info ul {
-  margin-top: 3px;
-  list-style: none;
-  padding-left: 16px;
-}
-.info ul li {
-  padding: 5px;
-}
-.info ul li a{
-  text-decoration: none;
-}
+/*SECTION*/
 .section {
   margin: 0 auto;
   width: 1300px;
   height: 600px;
-  background-color: #4FE5BB;
+  background-color:#b8b8b8;
 }
 .allInfo {
   padding-top: 100px;
   text-align: center;
 }
 .rent {
+  width: 33%;
+  float: left;
   background-image: url(../img/house.png);
   background-size: 200px;
   background-repeat: no-repeat;
   background-position: top center;
+  height: 280px;
+  font-size: 30px;
 }
 .soldCar {
+  width: 33%;
+  float: left;
   background-image: url(../img/reunion.png);
   background-size: 200px;
   background-repeat: no-repeat;
   background-position: top center;
+  height: 280px;
+  font-size: 30px;
 }
 .wash {
+  width: 33%;
+  float: left;
   background-image: url(../img/car-wash.png);
   background-size: 200px;
   background-repeat: no-repeat;
   background-position: top center;
+  height: 280px;
+  font-size: 30px;
 }
-
- .col-md-4 {
-   height: 280px;
-   font-size: 30px;
- }
 .text__section {
   padding-top: 220px;
   padding-left: 25px;
   width: 400px;
 }
-/
 
-.slider {
-  height: 350px;
-  background-color: #E95151;
-  padding-top: 50px;
-}
 /*SECTION ABOUT COMPANY*/
 .aboutCompany {
   margin: 0 auto;
@@ -143,7 +159,7 @@ color: #505051;
   padding-top: 40px;
   padding-left: 40px;
   font-size: 30px;
-  width: 60%;
+  width: 55%;
   height: 300px;
   float: left;
   background-color: #f7f7f7;
@@ -163,6 +179,16 @@ color: #505051;
   width: 1300px;
   background-color: #4FE5BB;
 }
+.descriptText {
+  float: left;
+  text-align: left;
+  padding-top: 40px;
+  padding-left: 40px;
+  font-size: 30px;
+  width: 50%;
+  height: 350px;
+  background-color: #4FE5BB;
+}
 .descriptIcon {
   float: left;
   width: 30%;
@@ -171,16 +197,6 @@ color: #505051;
   background-image: url(../img/mechanic.png);
   background-repeat: no-repeat;
   background-position: center center;
-}
-.descriptText {
-  float: left;
-  text-align: left;
-  padding-top: 40px;
-  padding-left: 40px;
-  font-size: 30px;
-  width: 70%;
-  height: 350px;
-  background-color: #4FE5BB;
 }
 /*SECTION prise*/
 .prise {
@@ -205,7 +221,7 @@ color: #505051;
 footer {
   margin: 0 auto;
   width: 1300px;
-  height: 1600px;
+  height: 600px;
   background-color: #f7f7f7;
 }
 .map {
