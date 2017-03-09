@@ -99,8 +99,8 @@ header {
   color: #f7f7f7;
 }
 .menu ul li:hover {
-border-left: 1px solid #e1dd00;
-border-right:1px solid #e1dd00;
+border-left: 2px solid #e1dd00;
+border-right:2px solid #e1dd00;
 }
 /*SECTION*/
 .section {
@@ -110,7 +110,7 @@ border-right:1px solid #e1dd00;
   background-color:#b8b8b8;
 }
 .allInfo {
-  padding-top: 100px;
+  padding-top: 150px;
   text-align: center;
 }
 .rent {
@@ -147,27 +147,31 @@ border-right:1px solid #e1dd00;
   padding-top: 220px;
   padding-left: 25px;
   width: 400px;
+  color: #505051;
 }
 
 /*SECTION ABOUT COMPANY*/
 .aboutCompany {
+  clear: both;
   margin: 0 auto;
   width: 1300px;
+  height: 420px;
   background-color: #f7f7f7;
 }
 .aboutText {
-  padding-top: 40px;
+  padding-top: 120px;
   padding-left: 40px;
   font-size: 30px;
   width: 55%;
   height: 300px;
   float: left;
+  color: #505051;
   background-color: #f7f7f7;
 }
 .aboutIcon {
   float: left;
   width: 40%;
-  height: 300px;
+  height: 400px;
   background-image: url(../img/refresh.png);
   background-repeat: no-repeat;
   background-position: center center;
@@ -175,28 +179,33 @@ border-right:1px solid #e1dd00;
 }
 /*SECTION descript*/
 .descript {
+  clear: both;
   margin: 0 auto;
   width: 1300px;
-  background-color: #4FE5BB;
-}
-.descriptText {
-  float: left;
-  text-align: left;
-  padding-top: 40px;
-  padding-left: 40px;
-  font-size: 30px;
-  width: 50%;
-  height: 350px;
-  background-color: #4FE5BB;
+  height: 400px;
+  background-color: #2a2d32;
 }
 .descriptIcon {
   float: left;
-  width: 30%;
-  height: 350px;
-  background-color: #4FE5BB;
+  width: 40%;
+  height: 400px;
+  background-image: url(../img/refresh.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #2a2d32;
   background-image: url(../img/mechanic.png);
   background-repeat: no-repeat;
   background-position: center center;
+}
+.descriptText {
+  padding-top: 80px;
+  padding-left: 40px;
+  font-size: 30px;
+  width: 55%;
+  height: 320px;
+  float: left;
+  background-color: #2a2d32;
+  color: #fffff9;
 }
 /*SECTION prise*/
 .prise {
@@ -207,33 +216,54 @@ border-right:1px solid #e1dd00;
   float: left;
   width: 60%;
   height: 450px;
-  background-color: #E95151;
+  background-color: #b8b8b8;
 }
 .priceIcon {
   float: left;
   width: 40%;
   height: 450px;
-  background-color: #E95151;
+  background-color: #b8b8b8;
   background-image: url(../img/wash.png);
   background-repeat: no-repeat;
   background-position: center center;
 }
 footer {
+  clear: both;
   margin: 0 auto;
   width: 1300px;
-  height: 600px;
+  height: 500px;
   background-color: #f7f7f7;
 }
 .map {
- width: 50%;
- height: 600px;
+  float: left;
+ width: 45%;
+ height: 500px;
  float: left;
  padding-top: 50px;
- padding-left: 50px;
+ padding-left: 40px;
 }
 .text {
   float: left;
   width: 50%;
-  font-size: 25px;
+  font-size: 30px;
   padding-top: 50px;
+  color: #505051;
+}
+.where {
+  padding-left: 30px;
+  background-image: url(../img/placeholder.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.telephone {
+  padding-left: 30px;
+  background-image: url(../img/phone-call.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.footer {
+  float: left;
+  width: 100%;
+  height: 50px;
+  background-color: #2a2d32;
 }

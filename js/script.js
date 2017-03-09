@@ -14,11 +14,11 @@
     };
 
     priceBtn.onclick = function () {
-      scrollBy(0, 1300);
+      scrollBy(0, 1500);
     };
 
     contactBtn.onclick = function () {
-      scrollBy(0, 1600);
+      scrollBy(0, 1800);
     };
 
   }
