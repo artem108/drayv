@@ -5,20 +5,21 @@
  var contactBtn = document.getElementById('contact');
  function scroll() {
 
-    aboutBtn.onclick = function () {
-      scrollBy(0, 700);
+
+    aboutBtn.onclick =  function () {
+      scrollBy(0, 800);
     };
 
     uslugiBtn.onclick = function () {
-      scrollBy(0, 1000);
+      scrollBy(0, 1250);
     };
 
     priceBtn.onclick = function () {
-      scrollBy(0, 1500);
+      scrollBy(0, 1620);
     };
 
     contactBtn.onclick = function () {
-      scrollBy(0, 1800);
+      scrollBy(0, 1900);
     };
 
   }

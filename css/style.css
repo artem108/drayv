@@ -93,14 +93,14 @@ header {
   color: #fffff9;
 }
 .saleCar a {
-  border-bottom:1px solid #e1dd00;
+  border-bottom:1px solid #ffdb43;
 }
 .saleCar a {
   color: #f7f7f7;
 }
 .menu ul li:hover {
-border-left: 2px solid #e1dd00;
-border-right:2px solid #e1dd00;
+border-left: 2px solid #ffdb43;
+border-right:2px solid #ffdb43;
 }
 /*SECTION*/
 .section {
@@ -245,25 +245,29 @@ footer {
 .text {
   float: left;
   width: 50%;
-  font-size: 30px;
-  padding-top: 50px;
+  height: 400px;
+  font-size: 25px;
+  padding-top: 100px;
   color: #505051;
 }
 .where {
   padding-left: 30px;
-  background-image: url(../img/placeholder.png);
-  background-repeat: no-repeat;
-  background-position: left;
 }
 .telephone {
   padding-left: 30px;
-  background-image: url(../img/phone-call.png);
-  background-repeat: no-repeat;
-  background-position: left;
+}
+.scrollTop {
+  width: 50px;
+  height: 30px;
+  font-size: 20px;
 }
 .footer {
   float: left;
+  padding-top: 25px;
   width: 100%;
   height: 50px;
+  font-size: 10px;
+  color: #fff;
+  text-align: center;
   background-color: #2a2d32;
 }
